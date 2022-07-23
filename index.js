@@ -206,3 +206,119 @@
  
 // let falna = 'c h i ln  a'
 // console.log(falna.split(" "))
+
+
+
+
+// Date Objects
+
+// 1) new Date()
+
+// const d = new Date();
+// console.log(d)
+// console.log(d.toString())
+// console.log(d.toLocaleString())
+
+
+// new Date(year, month, day, hours, minutes, seconds, milliseconds)
+
+// const d = new Date(2022, 11, 24, 10, 33, 30, 500)
+// console.log(d)
+// console.log(d.toString())
+// console.log(d.toLocaleString())
+
+
+// console.log(new Date(86400000))
+
+
+
+// const d = new Date();
+// console.log(d.getFullYear())
+// console.log(d.getMonth())
+// console.log(d.getDate())
+// console.log(d.getHours())
+// console.log(d.getMinutes())
+// console.log(d.getSeconds())
+// console.log(d.getMilliseconds())
+// console.log(d.getTime())
+// console.log(d.getDay())
+
+
+
+// Method	Description
+// setDate()	Set the day as a number (1-31)
+// setFullYear()	Set the year (optionally month and day)
+// setHours()	Set the hour (0-23)
+// setMilliseconds()	Set the milliseconds (0-999)
+// setMinutes()	Set the minutes (0-59)
+// setMonth()	Set the month (0-11)
+// setSeconds()	Set the seconds (0-59)
+// setTime()	Set the time (milliseconds since January 1, 1970)
+
+// Math objects
+
+
+
+// console.log(Math.PI)
+
+// let num = 9.5
+// console.log(Math.round(num))
+
+// console.log(12**3)
+// console.log(Math.pow(12,9))
+
+// let num = 9.999999999999
+// console.log(Math.ceil(num));
+
+// let num = -9.95
+// console.log(Math.floor(num));
+
+// let num = -9.95
+// console.log(Math.trunc(num));
+
+// let num = 9.95
+// console.log(Math.sign(0))
+
+// let num = -9.95
+// console.log(Math.abs(num));
+
+// console.log(Math.sqrt(900));
+// console.log(Math.cbrt(64));
+
+// console.log(Math.min(0, 150, 30, 20, -8, -200));
+// console.log(Math.max(0, 150, 30, 20, -8, -200));
+
+
+// console.log(Math.random()); 
+
+
+
+// Method	Description
+// abs(x)	Returns the absolute value of x
+// acos(x)	Returns the arccosine of x, in radians
+// acosh(x)	Returns the hyperbolic arccosine of x
+// asin(x)	Returns the arcsine of x, in radians
+// asinh(x)	Returns the hyperbolic arcsine of x
+// atan(x)	Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+// atan2(y, x)	Returns the arctangent of the quotient of its arguments
+// atanh(x)	Returns the hyperbolic arctangent of x
+// cbrt(x)	Returns the cubic root of x
+// ceil(x)	Returns x, rounded upwards to the nearest integer
+// cos(x)	Returns the cosine of x (x is in radians)
+// cosh(x)	Returns the hyperbolic cosine of x
+// exp(x)	Returns the value of Ex
+// floor(x)	Returns x, rounded downwards to the nearest integer
+// log(x)	Returns the natural logarithm (base E) of x
+// max(x, y, z, ..., n)	Returns the number with the highest value
+// min(x, y, z, ..., n)	Returns the number with the lowest value
+// pow(x, y)	Returns the value of x to the power of y
+// random()	Returns a random number between 0 and 1
+// round(x)	Rounds x to the nearest integer
+// sign(x)	Returns if x is negative, null or positive (-1, 0, 1)
+// sin(x)	Returns the sine of x (x is in radians)
+// sinh(x)	Returns the hyperbolic sine of x
+// sqrt(x)	Returns the square root of x
+// tan(x)	Returns the tangent of an angle
+// tanh(x)	Returns the hyperbolic tangent of a number
+// trunc(x)	Returns the integer part of a number (x)
+
