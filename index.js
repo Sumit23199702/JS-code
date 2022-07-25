@@ -203,7 +203,7 @@
 
 // console.log(ram.concat(' ',shyam))
 // console.log(`${ram} ${shyam}`)
- 
+
 // let falna = 'c h i ln  a'
 // console.log(falna.split(" "))
 
@@ -322,3 +322,91 @@
 // tanh(x)	Returns the hyperbolic tangent of a number
 // trunc(x)	Returns the integer part of a number (x)
 
+
+
+// objects literals(object) :-
+
+// let detail = {
+//     name : {
+//         fname : 'falna',
+//         lname : 'chilna'
+//     },
+//     age : 50,
+//     mobileNo : 9876543210,
+//     newDetail(){
+//         console.log(`first name is ${detail.name.fname} and last name is ${detail.name.lname} and age is ${detail.age} and number is ${detail.mobileNo}`)
+//     }
+// }
+// detail.newDetail()
+
+
+// Destructuring :-
+// Array :-
+
+// let arr = ['falna', 28, 9995558658]
+
+// console.log(arr[0])
+// console.log(arr[1])
+// console.log(arr[2])
+
+// let [name, age, mobileNo] = arr
+// console.log(mobileNo)
+
+// object 
+
+
+//  let obj = {
+//     name : 'falna',
+//     age : 25,
+//     mob : 9875645223
+//  }
+//  let {name, age, mob} = obj
+//  console.log(mob)
+
+
+
+// let detail = {
+//     name : {
+//         fname : 'falna',
+//         lname : 'chilna'
+//     },
+//     age : 50,
+//     mobileNo : 9876543210,
+//     newDetail(){
+//         console.log(`first name is ${detail.name.fname} and last name is ${detail.name.lname} and age is ${detail.age} and number is ${detail.mobileNo}`)
+//     }
+// }
+
+// detail.email = "bhuski@fulaniya.com"
+// detail['email'] = "bhuski@fulaniya.com"
+// let key = "email"
+// detail[key] = "bhuski@fulaniya.com"
+// console.log(detail)
+
+// this object 
+
+// console.log(this)
+
+// let detail = {
+//     name: {
+//         fname: 'falna',
+//         lname: 'chilna'
+//     },
+//     age: 50,
+//     mobileNo: 9876543210,
+//     newDetail(){
+//         console.log(`first name is ${this.name.fname} and last name is ${this.name.lname} and age is ${this.age} and number is ${this.mobileNo}`)
+//     }
+// }
+// detail.newDetail()
+
+// Spread operator :-
+
+// let fruits = ['mango', 'apple', 'guava']
+// let newFruit = [...fruits]
+// console.log(fruits);
+// console.log(newFruit);
+
+// "use strict"
+//  let x = 5
+// console.log(x)
